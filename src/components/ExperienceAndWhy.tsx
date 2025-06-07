@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Intimate Ships, Unique Access",
-  description: "With just 148–342 guests on board, Windstar’s ships can dock where larger vessels can’t—giving you access to smaller ports, secluded beaches, and authentic local culture.",
+  title: "Private Yacht Feel",
+  description: "Ships host just 148–342 guests, delivering intimate and personalized cruising.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Unpretentious Luxury",
-  description: "Enjoy world-class service, comfortable accommodations, and casually elegant ambiance—with no formal nights or crowds.",
+  title: "Unique Sailing Ships",
+  description: "Iconic tall ships combine tradition with modern luxury and open-air decks.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Culinary Excellence",
-  description: "Dine at your leisure with locally inspired menus, fresh ingredients sourced from each region, and James Beard Foundation-affiliated chefs.",
+  title: "Culinary Partnerships",
+  description: "Menus created in collaboration with the James Beard Foundation.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Immersive Exploration",
-  description: "Enjoy curated shore excursions, complimentary water sports, and local enrichment programs that let you truly connect with every destination.",
+  title: "Access to Smaller Ports",
+  description: "Explore off-the-beaten-path destinations larger ships can’t reach.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Windstar Cruises Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
